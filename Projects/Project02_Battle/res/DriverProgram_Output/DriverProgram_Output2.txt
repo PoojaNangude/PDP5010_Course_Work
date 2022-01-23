@@ -1,0 +1,2027 @@
+/Users/poojanangude/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home/bin/java -javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=54831:/Applications/IntelliJ IDEA CE.app/Contents/bin -Dfile.encoding=UTF-8 -classpath /Users/poojanangude/Desktop/courses/CS5010_PDP/PDP_5010_Project2_Battle/out/production/PDP_5010_Project2_Battle battle.BattleDriver
+Welcome to the battle arena!!!!
+Player abilities after equipping themselves with Gears:
+-----Player 1-----
+Strength: 22
+Constitution: 26
+Dexterity: 22
+Charisma: 1
+Health: 71
+
+Weapon yielded by player: SWORDS BROADSWORDS
+Gears in Use: HEAD_GEAR, POTIONS, POTIONS, POTIONS, POTIONS, BELTS 1, BELTS 4, BELTS 4, FOOT_WARE,
+Effect of gears on the player abilities:
+Effect on strength: 8, Effect on constitution: 17, Effect on dexterity 9, Effect on charisma: -12
+
+
+-----Player 2-----
+Strength: 20
+Constitution: 27
+Dexterity: 24
+Charisma: 8
+Health: 79
+
+Weapon yielded by player: FLAILS
+Gears in Use: HEAD_GEAR, POTIONS, POTIONS, BELTS 2, BELTS 2, BELTS 2, BELTS 4, FOOT_WARE,
+Effect of gears on the player abilities:
+Effect on strength: 4, Effect on constitution: 15, Effect on dexterity 11, Effect on charisma: -6
+
+
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 79
+Round no: 1
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 79
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 67
+Did striking player hit the opponent player: true
+Damage done on oponent: 4
+
+Round no: 2
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 67
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 79
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 3
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 79
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 67
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 4
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 67
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 78
+Did striking player hit the opponent player: true
+Damage done on oponent: 1
+
+Round no: 5
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 78
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 62
+Did striking player hit the opponent player: true
+Damage done on oponent: 5
+
+Round no: 6
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 62
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 73
+Did striking player hit the opponent player: true
+Damage done on oponent: 5
+
+Round no: 7
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 73
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 62
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 8
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 62
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 68
+Did striking player hit the opponent player: true
+Damage done on oponent: 5
+
+Round no: 9
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 68
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 57
+Did striking player hit the opponent player: true
+Damage done on oponent: 5
+
+Round no: 10
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 57
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 68
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 11
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 68
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 52
+Did striking player hit the opponent player: true
+Damage done on oponent: 5
+
+Round no: 12
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 52
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 65
+Did striking player hit the opponent player: true
+Damage done on oponent: 3
+
+Round no: 13
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 65
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 52
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 14
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 52
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 65
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 15
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 65
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 52
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 16
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 52
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 65
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 17
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 65
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 52
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 18
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 52
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 64
+Did striking player hit the opponent player: true
+Damage done on oponent: 1
+
+Round no: 19
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 64
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 49
+Did striking player hit the opponent player: true
+Damage done on oponent: 3
+
+Round no: 20
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 49
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 62
+Did striking player hit the opponent player: true
+Damage done on oponent: 2
+
+Round no: 21
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 62
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 43
+Did striking player hit the opponent player: true
+Damage done on oponent: 6
+
+Round no: 22
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 43
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 57
+Did striking player hit the opponent player: true
+Damage done on oponent: 5
+
+Round no: 23
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 57
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 43
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 24
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 43
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 57
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 25
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 57
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 41
+Did striking player hit the opponent player: true
+Damage done on oponent: 2
+
+Round no: 26
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 41
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 52
+Did striking player hit the opponent player: true
+Damage done on oponent: 5
+
+Round no: 27
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 52
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 41
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 28
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 41
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 52
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 29
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 52
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 41
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 30
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 41
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 52
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 31
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 52
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 41
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 32
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 41
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 52
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 33
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 52
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 36
+Did striking player hit the opponent player: true
+Damage done on oponent: 5
+
+Round no: 34
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 36
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 51
+Did striking player hit the opponent player: true
+Damage done on oponent: 1
+
+Round no: 35
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 51
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 36
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 36
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 36
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 48
+Did striking player hit the opponent player: true
+Damage done on oponent: 3
+
+Round no: 37
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 48
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 36
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 38
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 36
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 48
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 39
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 48
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 36
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 40
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 36
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 48
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 41
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 48
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 36
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 42
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 36
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 48
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 43
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 48
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 36
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 44
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 36
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 48
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 45
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 48
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 36
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 46
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 36
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 48
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 47
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 48
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 30
+Did striking player hit the opponent player: true
+Damage done on oponent: 6
+
+Round no: 48
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 30
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 45
+Did striking player hit the opponent player: true
+Damage done on oponent: 3
+
+Round no: 49
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 45
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 27
+Did striking player hit the opponent player: true
+Damage done on oponent: 3
+
+Round no: 50
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 27
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 43
+Did striking player hit the opponent player: true
+Damage done on oponent: 2
+
+Round no: 51
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 43
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 27
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 52
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 27
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 40
+Did striking player hit the opponent player: true
+Damage done on oponent: 3
+
+Round no: 53
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 40
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 27
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 54
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 27
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 40
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 55
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 40
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 27
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 56
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 27
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 40
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 57
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 40
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 27
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 58
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 27
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 35
+Did striking player hit the opponent player: true
+Damage done on oponent: 5
+
+Round no: 59
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 35
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 27
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 60
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 27
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 33
+Did striking player hit the opponent player: true
+Damage done on oponent: 2
+
+Round no: 61
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 33
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 27
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 62
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 27
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 33
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 63
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 33
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 21
+Did striking player hit the opponent player: true
+Damage done on oponent: 6
+
+Round no: 64
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 21
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 33
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 65
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 33
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 18
+Did striking player hit the opponent player: true
+Damage done on oponent: 3
+
+Round no: 66
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 18
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 33
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 67
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 33
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 18
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 68
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 18
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 28
+Did striking player hit the opponent player: true
+Damage done on oponent: 5
+
+Round no: 69
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 28
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 18
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 70
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 18
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 27
+Did striking player hit the opponent player: true
+Damage done on oponent: 1
+
+Round no: 71
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 27
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 18
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 72
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 18
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 27
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 73
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 27
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 18
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 74
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 18
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 23
+Did striking player hit the opponent player: true
+Damage done on oponent: 4
+
+Round no: 75
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 23
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 14
+Did striking player hit the opponent player: true
+Damage done on oponent: 4
+
+Round no: 76
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 14
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 23
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 77
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 23
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 10
+Did striking player hit the opponent player: true
+Damage done on oponent: 4
+
+Round no: 78
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 10
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 23
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 79
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 23
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 10
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 80
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 10
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 23
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 81
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 23
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 10
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 82
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 10
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 22
+Did striking player hit the opponent player: true
+Damage done on oponent: 1
+
+Round no: 83
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 22
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 7
+Did striking player hit the opponent player: true
+Damage done on oponent: 3
+
+Round no: 84
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 7
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 21
+Did striking player hit the opponent player: true
+Damage done on oponent: 1
+
+Round no: 85
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 21
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 7
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 86
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 7
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 19
+Did striking player hit the opponent player: true
+Damage done on oponent: 2
+
+Round no: 87
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 19
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 7
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 88
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 7
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 17
+Did striking player hit the opponent player: true
+Damage done on oponent: 2
+
+Round no: 89
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 17
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 4
+Did striking player hit the opponent player: true
+Damage done on oponent: 3
+
+Round no: 90
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 4
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 17
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 91
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 17
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 4
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 92
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 4
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 14
+Did striking player hit the opponent player: true
+Damage done on oponent: 3
+
+Round no: 93
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 14
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 2
+Did striking player hit the opponent player: true
+Damage done on oponent: 2
+
+Round no: 94
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 2
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 13
+Did striking player hit the opponent player: true
+Damage done on oponent: 1
+
+Round no: 95
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 13
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 0
+Did striking player hit the opponent player: true
+Damage done on oponent: 2
+
+Winning Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 13
+Does you want a rematch (y/n):
+y
+Round no: 1
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 79
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 69
+Did striking player hit the opponent player: true
+Damage done on oponent: 2
+
+Round no: 2
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 69
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 75
+Did striking player hit the opponent player: true
+Damage done on oponent: 4
+
+Round no: 3
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 75
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 69
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 4
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 69
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 75
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 5
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 75
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 64
+Did striking player hit the opponent player: true
+Damage done on oponent: 5
+
+Round no: 6
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 64
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 75
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 7
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 75
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 59
+Did striking player hit the opponent player: true
+Damage done on oponent: 5
+
+Round no: 8
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 59
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 75
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 9
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 75
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 56
+Did striking player hit the opponent player: true
+Damage done on oponent: 3
+
+Round no: 10
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 56
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 71
+Did striking player hit the opponent player: true
+Damage done on oponent: 4
+
+Round no: 11
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 71
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 56
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 12
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 56
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 67
+Did striking player hit the opponent player: true
+Damage done on oponent: 4
+
+Round no: 13
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 67
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 50
+Did striking player hit the opponent player: true
+Damage done on oponent: 6
+
+Round no: 14
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 50
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 67
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 15
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 67
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 48
+Did striking player hit the opponent player: true
+Damage done on oponent: 2
+
+Round no: 16
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 48
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 67
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 17
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 67
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 48
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 18
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 48
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 66
+Did striking player hit the opponent player: true
+Damage done on oponent: 1
+
+Round no: 19
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 66
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 48
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 20
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 48
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 66
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 21
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 66
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 48
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 22
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 48
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 65
+Did striking player hit the opponent player: true
+Damage done on oponent: 1
+
+Round no: 23
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 65
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 44
+Did striking player hit the opponent player: true
+Damage done on oponent: 4
+
+Round no: 24
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 44
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 64
+Did striking player hit the opponent player: true
+Damage done on oponent: 1
+
+Round no: 25
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 64
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 44
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 26
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 44
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 64
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 27
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 64
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 41
+Did striking player hit the opponent player: true
+Damage done on oponent: 3
+
+Round no: 28
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 41
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 64
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 29
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 64
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 35
+Did striking player hit the opponent player: true
+Damage done on oponent: 6
+
+Round no: 30
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 35
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 62
+Did striking player hit the opponent player: true
+Damage done on oponent: 2
+
+Round no: 31
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 62
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 35
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 32
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 35
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 62
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 33
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 62
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 35
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 34
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 35
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 57
+Did striking player hit the opponent player: true
+Damage done on oponent: 5
+
+Round no: 35
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 57
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 35
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 36
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 35
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 57
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 37
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 57
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 30
+Did striking player hit the opponent player: true
+Damage done on oponent: 5
+
+Round no: 38
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 30
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 53
+Did striking player hit the opponent player: true
+Damage done on oponent: 4
+
+Round no: 39
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 53
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 26
+Did striking player hit the opponent player: true
+Damage done on oponent: 4
+
+Round no: 40
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 26
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 53
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 41
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 53
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 26
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 42
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 26
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 50
+Did striking player hit the opponent player: true
+Damage done on oponent: 3
+
+Round no: 43
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 50
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 26
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 44
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 26
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 50
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 45
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 50
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 22
+Did striking player hit the opponent player: true
+Damage done on oponent: 4
+
+Round no: 46
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 22
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 48
+Did striking player hit the opponent player: true
+Damage done on oponent: 2
+
+Round no: 47
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 48
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 17
+Did striking player hit the opponent player: true
+Damage done on oponent: 5
+
+Round no: 48
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 17
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 43
+Did striking player hit the opponent player: true
+Damage done on oponent: 5
+
+Round no: 49
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 43
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 15
+Did striking player hit the opponent player: true
+Damage done on oponent: 2
+
+Round no: 50
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 15
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 38
+Did striking player hit the opponent player: true
+Damage done on oponent: 5
+
+Round no: 51
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 38
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 13
+Did striking player hit the opponent player: true
+Damage done on oponent: 2
+
+Round no: 52
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 13
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 38
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 53
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 38
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 11
+Did striking player hit the opponent player: true
+Damage done on oponent: 2
+
+Round no: 54
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 11
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 35
+Did striking player hit the opponent player: true
+Damage done on oponent: 3
+
+Round no: 55
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 35
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 11
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 56
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 11
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 35
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 57
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 35
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 6
+Did striking player hit the opponent player: true
+Damage done on oponent: 5
+
+Round no: 58
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 6
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 35
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 59
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 35
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 0
+Did striking player hit the opponent player: true
+Damage done on oponent: 6
+
+Winning Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 35
+Does you want a rematch (y/n):
+y
+Round no: 1
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 79
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 71
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 2
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 71
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 79
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 3
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 79
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 66
+Did striking player hit the opponent player: true
+Damage done on oponent: 5
+
+Round no: 4
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 66
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 79
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 5
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 79
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 66
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 6
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 66
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 78
+Did striking player hit the opponent player: true
+Damage done on oponent: 1
+
+Round no: 7
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 78
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 66
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 8
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 66
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 78
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 9
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 78
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 64
+Did striking player hit the opponent player: true
+Damage done on oponent: 2
+
+Round no: 10
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 64
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 75
+Did striking player hit the opponent player: true
+Damage done on oponent: 3
+
+Round no: 11
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 75
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 64
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 12
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 64
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 75
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 13
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 75
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 64
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 14
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 64
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 74
+Did striking player hit the opponent player: true
+Damage done on oponent: 1
+
+Round no: 15
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 74
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 64
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 16
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 64
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 74
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 17
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 74
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 64
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 18
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 64
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 74
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 19
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 74
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 59
+Did striking player hit the opponent player: true
+Damage done on oponent: 5
+
+Round no: 20
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 59
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 74
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 21
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 74
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 57
+Did striking player hit the opponent player: true
+Damage done on oponent: 2
+
+Round no: 22
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 57
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 74
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 23
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 74
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 57
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 24
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 57
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 74
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 25
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 74
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 57
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 26
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 57
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 74
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 27
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 74
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 52
+Did striking player hit the opponent player: true
+Damage done on oponent: 5
+
+Round no: 28
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 52
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 74
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 29
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 74
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 52
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 30
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 52
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 74
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 31
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 74
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 52
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 32
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 52
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 74
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 33
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 74
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 52
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 34
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 52
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 70
+Did striking player hit the opponent player: true
+Damage done on oponent: 4
+
+Round no: 35
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 70
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 52
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 36
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 52
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 70
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 37
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 70
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 50
+Did striking player hit the opponent player: true
+Damage done on oponent: 2
+
+Round no: 38
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 50
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 65
+Did striking player hit the opponent player: true
+Damage done on oponent: 5
+
+Round no: 39
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 65
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 46
+Did striking player hit the opponent player: true
+Damage done on oponent: 4
+
+Round no: 40
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 46
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 65
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 41
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 65
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 46
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 42
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 46
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 65
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 43
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 65
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 42
+Did striking player hit the opponent player: true
+Damage done on oponent: 4
+
+Round no: 44
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 42
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 64
+Did striking player hit the opponent player: true
+Damage done on oponent: 1
+
+Round no: 45
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 64
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 37
+Did striking player hit the opponent player: true
+Damage done on oponent: 5
+
+Round no: 46
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 37
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 60
+Did striking player hit the opponent player: true
+Damage done on oponent: 4
+
+Round no: 47
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 60
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 31
+Did striking player hit the opponent player: true
+Damage done on oponent: 6
+
+Round no: 48
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 31
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 60
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 49
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 60
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 27
+Did striking player hit the opponent player: true
+Damage done on oponent: 4
+
+Round no: 50
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 27
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 60
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 51
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 60
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 27
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 52
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 27
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 60
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 53
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 60
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 27
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 54
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 27
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 60
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 55
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 60
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 24
+Did striking player hit the opponent player: true
+Damage done on oponent: 3
+
+Round no: 56
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 24
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 55
+Did striking player hit the opponent player: true
+Damage done on oponent: 5
+
+Round no: 57
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 55
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 20
+Did striking player hit the opponent player: true
+Damage done on oponent: 4
+
+Round no: 58
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 20
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 52
+Did striking player hit the opponent player: true
+Damage done on oponent: 3
+
+Round no: 59
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 52
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 20
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 60
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 20
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 52
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 61
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 52
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 20
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 62
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 20
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 52
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 63
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 52
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 16
+Did striking player hit the opponent player: true
+Damage done on oponent: 4
+
+Round no: 64
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 16
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 52
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 65
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 52
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 16
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 66
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 16
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 52
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 67
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 52
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 12
+Did striking player hit the opponent player: true
+Damage done on oponent: 4
+
+Round no: 68
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 12
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 52
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 69
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 52
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 12
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 70
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 12
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 52
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 71
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 52
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 8
+Did striking player hit the opponent player: true
+Damage done on oponent: 4
+
+Round no: 72
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 8
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 48
+Did striking player hit the opponent player: true
+Damage done on oponent: 4
+
+Round no: 73
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 48
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 6
+Did striking player hit the opponent player: true
+Damage done on oponent: 2
+
+Round no: 74
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 6
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 46
+Did striking player hit the opponent player: true
+Damage done on oponent: 2
+
+Round no: 75
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 46
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 6
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 76
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 6
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 44
+Did striking player hit the opponent player: true
+Damage done on oponent: 2
+
+Round no: 77
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 44
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 4
+Did striking player hit the opponent player: true
+Damage done on oponent: 2
+
+Round no: 78
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 4
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 44
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 79
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 44
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 0
+Did striking player hit the opponent player: true
+Damage done on oponent: 5
+
+Winning Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 44
+Does you want a rematch (y/n):
+y
+Round no: 1
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 79
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 71
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 2
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 71
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 79
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 3
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 79
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 69
+Did striking player hit the opponent player: true
+Damage done on oponent: 2
+
+Round no: 4
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 69
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 75
+Did striking player hit the opponent player: true
+Damage done on oponent: 4
+
+Round no: 5
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 75
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 64
+Did striking player hit the opponent player: true
+Damage done on oponent: 5
+
+Round no: 6
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 64
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 74
+Did striking player hit the opponent player: true
+Damage done on oponent: 1
+
+Round no: 7
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 74
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 59
+Did striking player hit the opponent player: true
+Damage done on oponent: 5
+
+Round no: 8
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 59
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 74
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 9
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 74
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 59
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 10
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 59
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 74
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 11
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 74
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 59
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 12
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 59
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 74
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 13
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 74
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 59
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 14
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 59
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 74
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 15
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 74
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 59
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 16
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 59
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 74
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 17
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 74
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 59
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 18
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 59
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 72
+Did striking player hit the opponent player: true
+Damage done on oponent: 2
+
+Round no: 19
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 72
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 54
+Did striking player hit the opponent player: true
+Damage done on oponent: 5
+
+Round no: 20
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 54
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 69
+Did striking player hit the opponent player: true
+Damage done on oponent: 3
+
+Round no: 21
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 69
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 52
+Did striking player hit the opponent player: true
+Damage done on oponent: 2
+
+Round no: 22
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 52
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 66
+Did striking player hit the opponent player: true
+Damage done on oponent: 3
+
+Round no: 23
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 66
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 47
+Did striking player hit the opponent player: true
+Damage done on oponent: 5
+
+Round no: 24
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 47
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 66
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 25
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 66
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 45
+Did striking player hit the opponent player: true
+Damage done on oponent: 2
+
+Round no: 26
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 45
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 66
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 27
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 66
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 45
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 28
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 45
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 62
+Did striking player hit the opponent player: true
+Damage done on oponent: 4
+
+Round no: 29
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 62
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 45
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 30
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 45
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 57
+Did striking player hit the opponent player: true
+Damage done on oponent: 5
+
+Round no: 31
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 57
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 45
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 32
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 45
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 57
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 33
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 57
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 45
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 34
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 45
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 57
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 35
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 57
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 45
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 36
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 45
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 57
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 37
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 57
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 45
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 38
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 45
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 53
+Did striking player hit the opponent player: true
+Damage done on oponent: 4
+
+Round no: 39
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 53
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 41
+Did striking player hit the opponent player: true
+Damage done on oponent: 4
+
+Round no: 40
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 41
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 53
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 41
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 53
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 36
+Did striking player hit the opponent player: true
+Damage done on oponent: 5
+
+Round no: 42
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 36
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 53
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 43
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 53
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 36
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 44
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 36
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 51
+Did striking player hit the opponent player: true
+Damage done on oponent: 2
+
+Round no: 45
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 51
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 36
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 46
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 36
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 51
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 47
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 51
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 32
+Did striking player hit the opponent player: true
+Damage done on oponent: 4
+
+Round no: 48
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 32
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 46
+Did striking player hit the opponent player: true
+Damage done on oponent: 5
+
+Round no: 49
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 46
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 32
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 50
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 32
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 42
+Did striking player hit the opponent player: true
+Damage done on oponent: 4
+
+Round no: 51
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 42
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 32
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 52
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 32
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 42
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 53
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 42
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 28
+Did striking player hit the opponent player: true
+Damage done on oponent: 4
+
+Round no: 54
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 28
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 38
+Did striking player hit the opponent player: true
+Damage done on oponent: 4
+
+Round no: 55
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 38
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 28
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 56
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 28
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 38
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 57
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 38
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 28
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 58
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 28
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 33
+Did striking player hit the opponent player: true
+Damage done on oponent: 5
+
+Round no: 59
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 33
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 28
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 60
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 28
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 28
+Did striking player hit the opponent player: true
+Damage done on oponent: 5
+
+Round no: 61
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 28
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 24
+Did striking player hit the opponent player: true
+Damage done on oponent: 4
+
+Round no: 62
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 24
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 28
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 63
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 28
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 24
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 64
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 24
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 24
+Did striking player hit the opponent player: true
+Damage done on oponent: 4
+
+Round no: 65
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 24
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 24
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 66
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 24
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 21
+Did striking player hit the opponent player: true
+Damage done on oponent: 3
+
+Round no: 67
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 21
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 24
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 68
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 24
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 21
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 69
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 21
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 24
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 70
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 24
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 21
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 71
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 21
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 18
+Did striking player hit the opponent player: true
+Damage done on oponent: 6
+
+Round no: 72
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 18
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 18
+Did striking player hit the opponent player: true
+Damage done on oponent: 3
+
+Round no: 73
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 18
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 18
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 74
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 18
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 18
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 75
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 18
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 18
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 76
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 18
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 18
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 77
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 18
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 18
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 78
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 18
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 18
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 79
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 18
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 18
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 80
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 18
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 16
+Did striking player hit the opponent player: true
+Damage done on oponent: 2
+
+Round no: 81
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 16
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 18
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 82
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 18
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 13
+Did striking player hit the opponent player: true
+Damage done on oponent: 3
+
+Round no: 83
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 13
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 16
+Did striking player hit the opponent player: true
+Damage done on oponent: 2
+
+Round no: 84
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 16
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 13
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 85
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 13
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 16
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 86
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 16
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 9
+Did striking player hit the opponent player: true
+Damage done on oponent: 4
+
+Round no: 87
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 9
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 16
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 88
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 16
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 5
+Did striking player hit the opponent player: true
+Damage done on oponent: 4
+
+Round no: 89
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 5
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 13
+Did striking player hit the opponent player: true
+Damage done on oponent: 3
+
+Round no: 90
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 13
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 5
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 91
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 5
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 11
+Did striking player hit the opponent player: true
+Damage done on oponent: 2
+
+Round no: 92
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 11
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 4
+Did striking player hit the opponent player: true
+Damage done on oponent: 1
+
+Round no: 93
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 4
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 9
+Did striking player hit the opponent player: true
+Damage done on oponent: 2
+
+Round no: 94
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 9
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 4
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 95
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 4
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 9
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 96
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 9
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 4
+Did striking player hit the opponent player: false
+Damage done on oponent: 0
+
+Round no: 97
+Striking Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 4
+Opponent Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 6
+Did striking player hit the opponent player: true
+Damage done on oponent: 3
+
+Round no: 98
+Striking Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 6
+Opponent Player: Player strength: 20 constitution: 27 dexterity: 24 charisma: 8 health: 0
+Did striking player hit the opponent player: true
+Damage done on oponent: 4
+
+Winning Player: Player strength: 22 constitution: 26 dexterity: 22 charisma: 1 health: 6
+Does you want a rematch (y/n):

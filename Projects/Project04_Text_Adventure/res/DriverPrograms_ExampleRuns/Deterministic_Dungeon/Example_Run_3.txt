@@ -1,0 +1,192 @@
+This example run covers the following cases:(This is a deterministic dungeon)
+1. Player navigating through the dungeon
+2. User getting defeated by an injured Otyugh
+3. User trying to shoot when he is not equipped with/ out of arrows
+
+
+poojanangude@Poojas-MBP CS5010_PDP_Project4_AdventureGame % cd src
+poojanangude@Poojas-MBP src % javac GameDriver.java
+poojanangude@Poojas-MBP src % java GameDriver.java W 6 6 13 30 40
+
+WELCOME TO THE GAME!!
+-----------------------------------------------------------------------------------------
+You are in a CAVE
+You are equipped with 3 arrows
+Treasure collected by player till now: DIAMOND:0 RUBY:0 SAPPHIRE:0
+
+You find 2 arrows here
+You find 1 DIAMOND 1 RUBY here
+The player senses a terribly pungent odour
+Doors lead to SOUTH, EAST, WEST,
+Move player, Pickup treasure/arrow or Shoot arrow (m-p-s)?
+s
+How many caves to be travelled ?
+2
+Enter the direction in which you want to shoot the arrow(N-S-E-W):
+E
+You hear a great howl in the distance. You injured an Otyugh!!
+-----------------------------------------------------------------------------------------
+You are in a CAVE
+You are equipped with 2 arrows
+Treasure collected by player till now: DIAMOND:0 RUBY:0 SAPPHIRE:0
+
+You find 2 arrows here
+You find 1 DIAMOND 1 RUBY here
+The player senses a terribly pungent odour
+Doors lead to SOUTH, EAST, WEST,
+Move player, Pickup treasure/arrow or Shoot arrow (m-p-s)?
+s
+How many caves to be travelled ?
+1
+Enter the direction in which you want to shoot the arrow(N-S-E-W):
+E
+You hear a great howl in the distance. You injured an Otyugh!!
+-----------------------------------------------------------------------------------------
+You are in a CAVE
+You are equipped with 1 arrows
+Treasure collected by player till now: DIAMOND:0 RUBY:0 SAPPHIRE:0
+
+You find 2 arrows here
+You find 1 DIAMOND 1 RUBY here
+The player senses a terribly pungent odour
+Doors lead to SOUTH, EAST, WEST,
+Move player, Pickup treasure/arrow or Shoot arrow (m-p-s)?
+s
+How many caves to be travelled ?
+1
+Enter the direction in which you want to shoot the arrow(N-S-E-W):
+E
+Wow!! You just killed a monster.
+-----------------------------------------------------------------------------------------
+You are in a CAVE
+You are equipped with 0 arrows
+Treasure collected by player till now: DIAMOND:0 RUBY:0 SAPPHIRE:0
+
+You find 2 arrows here
+You find 1 DIAMOND 1 RUBY here
+The player senses a terribly pungent odour
+Doors lead to SOUTH, EAST, WEST,
+Move player, Pickup treasure/arrow or Shoot arrow (m-p-s)?
+s
+How many caves to be travelled ?
+2
+Enter the direction in which you want to shoot the arrow(N-S-E-W):
+E
+You are out of arrows. Explore the dungeon to collect more.
+-----------------------------------------------------------------------------------------
+You are in a CAVE
+You are equipped with 0 arrows
+Treasure collected by player till now: DIAMOND:0 RUBY:0 SAPPHIRE:0
+
+You find 2 arrows here
+You find 1 DIAMOND 1 RUBY here
+The player senses a terribly pungent odour
+Doors lead to SOUTH, EAST, WEST,
+Move player, Pickup treasure/arrow or Shoot arrow (m-p-s)?
+p
+What do you want to collect (arrows(A)/ treasure(T))
+A
+Arrows collected
+-----------------------------------------------------------------------------------------
+You are in a CAVE
+You are equipped with 2 arrows
+Treasure collected by player till now: DIAMOND:0 RUBY:0 SAPPHIRE:0
+
+You find 1 DIAMOND 1 RUBY here
+The player senses a terribly pungent odour
+Doors lead to SOUTH, EAST, WEST,
+Move player, Pickup treasure/arrow or Shoot arrow (m-p-s)?
+m
+Doors lead to SOUTH(S), EAST(E), WEST(W),
+Where do you want to go?
+S
+Player moved to desired location
+
+-----------------------------------------------------------------------------------------
+You are in a CAVE
+You are equipped with 2 arrows
+Treasure collected by player till now: DIAMOND:0 RUBY:0 SAPPHIRE:0
+
+The player senses a terribly pungent odour
+Doors lead to NORTH, SOUTH, EAST, WEST,
+Move player, Pickup treasure/arrow or Shoot arrow (m-p-s)?
+s
+How many caves to be travelled ?
+3
+Enter the direction in which you want to shoot the arrow(N-S-E-W):
+E
+You shot the arrow into the darkness
+-----------------------------------------------------------------------------------------
+You are in a CAVE
+You are equipped with 1 arrows
+Treasure collected by player till now: DIAMOND:0 RUBY:0 SAPPHIRE:0
+
+The player senses a terribly pungent odour
+Doors lead to NORTH, SOUTH, EAST, WEST,
+Move player, Pickup treasure/arrow or Shoot arrow (m-p-s)?
+s
+How many caves to be travelled ?
+2
+Enter the direction in which you want to shoot the arrow(N-S-E-W):
+S
+You shot the arrow into the darkness
+-----------------------------------------------------------------------------------------
+You are in a CAVE
+You are equipped with 0 arrows
+Treasure collected by player till now: DIAMOND:0 RUBY:0 SAPPHIRE:0
+
+The player senses a terribly pungent odour
+Doors lead to NORTH, SOUTH, EAST, WEST,
+Move player, Pickup treasure/arrow or Shoot arrow (m-p-s)?
+m
+Doors lead to NORTH(N), SOUTH(S), EAST(E), WEST(W),
+Where do you want to go?
+E
+Player moved to desired location
+
+-----------------------------------------------------------------------------------------
+You are in a CAVE
+You are equipped with 0 arrows
+Treasure collected by player till now: DIAMOND:0 RUBY:0 SAPPHIRE:0
+
+The player senses a terribly pungent odour
+Doors lead to NORTH, SOUTH, WEST, EAST,
+Move player, Pickup treasure/arrow or Shoot arrow (m-p-s)?
+m
+Doors lead to NORTH(N), SOUTH(S), WEST(W), EAST(E),
+Where do you want to go?
+E
+Player moved to desired location
+
+-----------------------------------------------------------------------------------------
+You are in a CAVE
+You are equipped with 0 arrows
+Treasure collected by player till now: DIAMOND:0 RUBY:0 SAPPHIRE:0
+
+The player senses a terribly pungent odour
+Doors lead to NORTH, SOUTH, WEST, EAST,
+Move player, Pickup treasure/arrow or Shoot arrow (m-p-s)?
+s
+How many caves to be travelled ?
+1
+Enter the direction in which you want to shoot the arrow(N-S-E-W):
+N
+You are out of arrows. Explore the dungeon to collect more.
+-----------------------------------------------------------------------------------------
+You are in a CAVE
+You are equipped with 0 arrows
+Treasure collected by player till now: DIAMOND:0 RUBY:0 SAPPHIRE:0
+
+The player senses a terribly pungent odour
+Doors lead to NORTH, SOUTH, WEST, EAST,
+Move player, Pickup treasure/arrow or Shoot arrow (m-p-s)?
+m
+Doors lead to NORTH(N), SOUTH(S), WEST(W), EAST(E),
+Where do you want to go?
+N
+Player moved to desired location
+You see an injured monster here
+You try to run away
+You could not escape the monster.
+-----------------------------------------------------------------------------------------
+poojanangude@Poojas-MBP src %

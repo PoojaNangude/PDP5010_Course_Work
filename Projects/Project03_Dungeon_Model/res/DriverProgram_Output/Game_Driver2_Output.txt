@@ -1,0 +1,540 @@
+poojanangude@Poojas-MBP CS5010_Project3_Dungeon % cd src
+poojanangude@Poojas-MBP src % javac GameDriver2.java
+poojanangude@Poojas-MBP src % java GameDriver2.java  W 5 6 8 30
+DEMONSTRATION OF:
+(1) WRAPPING DUNGEON (2)PLAYER VISITING EVERY NODE
+IN THE GAME
+Grid before assigning treasure to dungeon:
+ID(1) Neighbours/possible moves(7 2 6 ) (CA)            ID(2) Neighbours/possible moves(1 8 3 ) (CA)            ID(3) Neighbours/possible moves(2 9 4 ) (CA)              ID(4) Neighbours/possible moves(3 10 5 ) (CA)           ID(5) Neighbours/possible moves(4 11 6 ) (CA)           ID(6) Neighbours/possible moves(5 12 1 ) (CA)
+ID(7) Neighbours/possible moves(1 13 8 12 ) (CA)                ID(8) Neighbours/possible moves(2 14 7 9 ) (CA)                 ID(9) Neighbours/possible moves(3 15 8 10 ) (CA)          ID(10) Neighbours/possible moves(4 16 9 11 ) (CA)               ID(11) Neighbours/possible moves(5 17 10 12 ) (CA)       ID(12) Neighbours/possible moves(6 18 11 7 ) (CA)
+ID(13) Neighbours/possible moves(7 19 14 ) (CA)                 ID(14) Neighbours/possible moves(8 20 13 ) (CA)                 ID(15) Neighbours/possible moves(9 21 ) (TU)              ID(16) Neighbours/possible moves(10 22 ) (TU)           ID(17) Neighbours/possible moves(11 23 ) (TU)           ID(18) Neighbours/possible moves(12 24 ) (TU)
+ID(19) Neighbours/possible moves(13 25 ) (TU)           ID(20) Neighbours/possible moves(14 26 ) (TU)           ID(21) Neighbours/possible moves(15 27 ) (TU)             ID(22) Neighbours/possible moves(16 28 ) (TU)           ID(23) Neighbours/possible moves(17 29 ) (TU)           ID(24) Neighbours/possible moves(18 30 ) (TU)
+ID(25) Neighbours/possible moves(19 ) (CA)              ID(26) Neighbours/possible moves(20 ) (CA)              ID(27) Neighbours/possible moves(21 ) (CA)                ID(28) Neighbours/possible moves(22 ) (CA)              ID(29) Neighbours/possible moves(23 ) (CA)              ID(30) Neighbours/possible moves(24 ) (CA)
+
+Thus total number of caves to be assigned treasure: 6
+Grid after assigning 30% of treasure to the dungeon:
+ID(1) Neighbours/possible moves(7 2 6 ) (CA) (treasure: D R )           ID(2) Neighbours/possible moves(1 8 3 ) (CA) (treasure: D R )           ID(3) Neighbours/possible moves(2 9 4 ) (CA) (treasure: D R )             ID(4) Neighbours/possible moves(3 10 5 ) (CA) (treasure: D R )          ID(5) Neighbours/possible moves(4 11 6 ) (CA) (treasure: D R )            ID(6) Neighbours/possible moves(5 12 1 ) (CA) (treasure: D R )
+ID(7) Neighbours/possible moves(1 13 8 12 ) (CA)                ID(8) Neighbours/possible moves(2 14 7 9 ) (CA)                 ID(9) Neighbours/possible moves(3 15 8 10 ) (CA)          ID(10) Neighbours/possible moves(4 16 9 11 ) (CA)               ID(11) Neighbours/possible moves(5 17 10 12 ) (CA)       ID(12) Neighbours/possible moves(6 18 11 7 ) (CA)
+ID(13) Neighbours/possible moves(7 19 14 ) (CA)                 ID(14) Neighbours/possible moves(8 20 13 ) (CA)                 ID(15) Neighbours/possible moves(9 21 ) (TU)              ID(16) Neighbours/possible moves(10 22 ) (TU)           ID(17) Neighbours/possible moves(11 23 ) (TU)           ID(18) Neighbours/possible moves(12 24 ) (TU)
+ID(19) Neighbours/possible moves(13 25 ) (TU)           ID(20) Neighbours/possible moves(14 26 ) (TU)           ID(21) Neighbours/possible moves(15 27 ) (TU)             ID(22) Neighbours/possible moves(16 28 ) (TU)           ID(23) Neighbours/possible moves(17 29 ) (TU)           ID(24) Neighbours/possible moves(18 30 ) (TU)
+ID(25) Neighbours/possible moves(19 ) (CA)              ID(26) Neighbours/possible moves(20 ) (CA)              ID(27) Neighbours/possible moves(21 ) (CA)                ID(28) Neighbours/possible moves(22 ) (CA)              ID(29) Neighbours/possible moves(23 ) (CA)              ID(30) Neighbours/possible moves(24 ) (CA)
+
+Start point: 7
+Destination point: 6
+
+---------------
+
+Player is initially at node 7 and with no treasure
+Player: Location Id (7)Co-ordinates: (1,0)Treasure collected(DIAMOND:0 RUBY:0 SAPPHIRE:0 )
+Player Location details: ID(7) Neighbours/possible moves(1 13 8 12 ) (CA)
+1               2               3               4               5               6
+|P|             8               9               10              11              12
+13              14              15              16              17              18
+19              20              21              22              23              24
+25              26              27              28              29              30
+
+Moving player to node 12 which is one of the neighbours of node 7 - NOTE SHOWING WRAPPING MOVES
+Player moved to desired location
+Player: Location Id (12)Co-ordinates: (1,5)Treasure collected(DIAMOND:0 RUBY:0 SAPPHIRE:0 )
+Player Location details: ID(12) Neighbours/possible moves(6 18 11 7 ) (CA)
+1               2               3               4               5               6
+7               8               9               10              11              |P|
+13              14              15              16              17              18
+19              20              21              22              23              24
+25              26              27              28              29              30
+
+Moving player to node 18 which is one of the neighbours of node 12
+Player moved to desired location
+Player: Location Id (18)Co-ordinates: (2,5)Treasure collected(DIAMOND:0 RUBY:0 SAPPHIRE:0 )
+Player Location details: ID(18) Neighbours/possible moves(12 24 ) (TU)
+1               2               3               4               5               6
+7               8               9               10              11              12
+13              14              15              16              17              |P|
+19              20              21              22              23              24
+25              26              27              28              29              30
+
+Trying to move the player to an invalid location/neighbour like 17, as it has no path to reach 17
+Player cannot be moved as it as no such path to such specified location
+
+Moving player to node 24 which is one of the neighbours of node 18
+Player moved to desired location
+Player: Location Id (24)Co-ordinates: (3,5)Treasure collected(DIAMOND:0 RUBY:0 SAPPHIRE:0 )
+Player Location details: ID(24) Neighbours/possible moves(18 30 ) (TU)
+1               2               3               4               5               6
+7               8               9               10              11              12
+13              14              15              16              17              18
+19              20              21              22              23              |P|
+25              26              27              28              29              30
+
+Moving player to node 30 which is one of the neighbours of node 24
+Player moved to desired location
+Player: Location Id (30)Co-ordinates: (4,5)Treasure collected(DIAMOND:0 RUBY:0 SAPPHIRE:0 )
+Player Location details: ID(30) Neighbours/possible moves(24 ) (CA)
+1               2               3               4               5               6
+7               8               9               10              11              12
+13              14              15              16              17              18
+19              20              21              22              23              24
+25              26              27              28              29              |P|
+
+Moving player to node 24 which is one of the neighbours of node 30
+Player moved to desired location
+Player: Location Id (24)Co-ordinates: (3,5)Treasure collected(DIAMOND:0 RUBY:0 SAPPHIRE:0 )
+Player Location details: ID(24) Neighbours/possible moves(18 30 ) (TU)
+1               2               3               4               5               6
+7               8               9               10              11              12
+13              14              15              16              17              18
+19              20              21              22              23              |P|
+25              26              27              28              29              30
+
+Moving player to node 18 which is one of the neighbours of node 24
+Player moved to desired location
+Player: Location Id (18)Co-ordinates: (2,5)Treasure collected(DIAMOND:0 RUBY:0 SAPPHIRE:0 )
+Player Location details: ID(18) Neighbours/possible moves(12 24 ) (TU)
+1               2               3               4               5               6
+7               8               9               10              11              12
+13              14              15              16              17              |P|
+19              20              21              22              23              24
+25              26              27              28              29              30
+
+Moving player to node 12 which is one of the neighbours of node 18
+Player moved to desired location
+Player: Location Id (12)Co-ordinates: (1,5)Treasure collected(DIAMOND:0 RUBY:0 SAPPHIRE:0 )
+Player Location details: ID(12) Neighbours/possible moves(6 18 11 7 ) (CA)
+1               2               3               4               5               6
+7               8               9               10              11              |P|
+13              14              15              16              17              18
+19              20              21              22              23              24
+25              26              27              28              29              30
+
+Moving player to node 11 which is one of the neighbours of node 12
+Player moved to desired location
+Player: Location Id (11)Co-ordinates: (1,4)Treasure collected(DIAMOND:0 RUBY:0 SAPPHIRE:0 )
+Player Location details: ID(11) Neighbours/possible moves(5 17 10 12 ) (CA)
+1               2               3               4               5               6
+7               8               9               10              |P|             12
+13              14              15              16              17              18
+19              20              21              22              23              24
+25              26              27              28              29              30
+
+Moving player to node 17 which is one of the neighbours of node 11
+Player moved to desired location
+Player: Location Id (17)Co-ordinates: (2,4)Treasure collected(DIAMOND:0 RUBY:0 SAPPHIRE:0 )
+Player Location details: ID(17) Neighbours/possible moves(11 23 ) (TU)
+1               2               3               4               5               6
+7               8               9               10              11              12
+13              14              15              16              |P|             18
+19              20              21              22              23              24
+25              26              27              28              29              30
+
+Moving player to node 23 which is one of the neighbours of node 17
+Player moved to desired location
+Player: Location Id (23)Co-ordinates: (3,4)Treasure collected(DIAMOND:0 RUBY:0 SAPPHIRE:0 )
+Player Location details: ID(23) Neighbours/possible moves(17 29 ) (TU)
+1               2               3               4               5               6
+7               8               9               10              11              12
+13              14              15              16              17              18
+19              20              21              22              |P|             24
+25              26              27              28              29              30
+
+Moving player to node 29 which is one of the neighbours of node 23
+Player moved to desired location
+Player: Location Id (29)Co-ordinates: (4,4)Treasure collected(DIAMOND:0 RUBY:0 SAPPHIRE:0 )
+Player Location details: ID(29) Neighbours/possible moves(23 ) (CA)
+1               2               3               4               5               6
+7               8               9               10              11              12
+13              14              15              16              17              18
+19              20              21              22              23              24
+25              26              27              28              |P|             30
+
+Moving player to node 23 which is one of the neighbours of node 29
+Player moved to desired location
+Player: Location Id (23)Co-ordinates: (3,4)Treasure collected(DIAMOND:0 RUBY:0 SAPPHIRE:0 )
+Player Location details: ID(23) Neighbours/possible moves(17 29 ) (TU)
+1               2               3               4               5               6
+7               8               9               10              11              12
+13              14              15              16              17              18
+19              20              21              22              |P|             24
+25              26              27              28              29              30
+
+Moving player to node 17 which is one of the neighbours of node 23
+Player moved to desired location
+Player: Location Id (17)Co-ordinates: (2,4)Treasure collected(DIAMOND:0 RUBY:0 SAPPHIRE:0 )
+Player Location details: ID(17) Neighbours/possible moves(11 23 ) (TU)
+1               2               3               4               5               6
+7               8               9               10              11              12
+13              14              15              16              |P|             18
+19              20              21              22              23              24
+25              26              27              28              29              30
+
+Moving player to node 11 which is one of the neighbours of node 17
+Player moved to desired location
+Player: Location Id (11)Co-ordinates: (1,4)Treasure collected(DIAMOND:0 RUBY:0 SAPPHIRE:0 )
+Player Location details: ID(11) Neighbours/possible moves(5 17 10 12 ) (CA)
+1               2               3               4               5               6
+7               8               9               10              |P|             12
+13              14              15              16              17              18
+19              20              21              22              23              24
+25              26              27              28              29              30
+
+Moving player to node 10 which is one of the neighbours of node 11
+Player moved to desired location
+Player: Location Id (10)Co-ordinates: (1,3)Treasure collected(DIAMOND:0 RUBY:0 SAPPHIRE:0 )
+Player Location details: ID(10) Neighbours/possible moves(4 16 9 11 ) (CA)
+1               2               3               4               5               6
+7               8               9               |P|             11              12
+13              14              15              16              17              18
+19              20              21              22              23              24
+25              26              27              28              29              30
+
+Moving player to node 16 which is one of the neighbours of node 10
+Player moved to desired location
+Player: Location Id (16)Co-ordinates: (2,3)Treasure collected(DIAMOND:0 RUBY:0 SAPPHIRE:0 )
+Player Location details: ID(16) Neighbours/possible moves(10 22 ) (TU)
+1               2               3               4               5               6
+7               8               9               10              11              12
+13              14              15              |P|             17              18
+19              20              21              22              23              24
+25              26              27              28              29              30
+
+Moving player to node 12 which is one of the neighbours of node 16
+Player moved to desired location
+Player: Location Id (22)Co-ordinates: (3,3)Treasure collected(DIAMOND:0 RUBY:0 SAPPHIRE:0 )
+Player Location details: ID(22) Neighbours/possible moves(16 28 ) (TU)
+1               2               3               4               5               6
+7               8               9               10              11              12
+13              14              15              16              17              18
+19              20              21              |P|             23              24
+25              26              27              28              29              30
+
+Moving player to node 28 which is one of the neighbours of node 22
+Player moved to desired location
+Player: Location Id (28)Co-ordinates: (4,3)Treasure collected(DIAMOND:0 RUBY:0 SAPPHIRE:0 )
+Player Location details: ID(28) Neighbours/possible moves(22 ) (CA)
+1               2               3               4               5               6
+7               8               9               10              11              12
+13              14              15              16              17              18
+19              20              21              22              23              24
+25              26              27              |P|             29              30
+
+Moving player to node 22 which is one of the neighbours of node 28
+Player moved to desired location
+Player: Location Id (22)Co-ordinates: (3,3)Treasure collected(DIAMOND:0 RUBY:0 SAPPHIRE:0 )
+Player Location details: ID(22) Neighbours/possible moves(16 28 ) (TU)
+1               2               3               4               5               6
+7               8               9               10              11              12
+13              14              15              16              17              18
+19              20              21              |P|             23              24
+25              26              27              28              29              30
+
+Moving player to node 16 which is one of the neighbours of node 22
+Player moved to desired location
+Player: Location Id (16)Co-ordinates: (2,3)Treasure collected(DIAMOND:0 RUBY:0 SAPPHIRE:0 )
+Player Location details: ID(16) Neighbours/possible moves(10 22 ) (TU)
+1               2               3               4               5               6
+7               8               9               10              11              12
+13              14              15              |P|             17              18
+19              20              21              22              23              24
+25              26              27              28              29              30
+
+Moving player to node 10 which is one of the neighbours of node 16
+Player moved to desired location
+Player: Location Id (10)Co-ordinates: (1,3)Treasure collected(DIAMOND:0 RUBY:0 SAPPHIRE:0 )
+Player Location details: ID(10) Neighbours/possible moves(4 16 9 11 ) (CA)
+1               2               3               4               5               6
+7               8               9               |P|             11              12
+13              14              15              16              17              18
+19              20              21              22              23              24
+25              26              27              28              29              30
+
+Moving player to node 9 which is one of the neighbours of node 10
+Player moved to desired location
+Player: Location Id (9)Co-ordinates: (1,2)Treasure collected(DIAMOND:0 RUBY:0 SAPPHIRE:0 )
+Player Location details: ID(9) Neighbours/possible moves(3 15 8 10 ) (CA)
+1               2               3               4               5               6
+7               8               |P|             10              11              12
+13              14              15              16              17              18
+19              20              21              22              23              24
+25              26              27              28              29              30
+
+Moving player to node 15 which is one of the neighbours of node 9
+Player moved to desired location
+Player: Location Id (15)Co-ordinates: (2,2)Treasure collected(DIAMOND:0 RUBY:0 SAPPHIRE:0 )
+Player Location details: ID(15) Neighbours/possible moves(9 21 ) (TU)
+1               2               3               4               5               6
+7               8               9               10              11              12
+13              14              |P|             16              17              18
+19              20              21              22              23              24
+25              26              27              28              29              30
+
+Moving player to node 21 which is one of the neighbours of node 15
+Player moved to desired location
+Player: Location Id (21)Co-ordinates: (3,2)Treasure collected(DIAMOND:0 RUBY:0 SAPPHIRE:0 )
+Player Location details: ID(21) Neighbours/possible moves(15 27 ) (TU)
+1               2               3               4               5               6
+7               8               9               10              11              12
+13              14              15              16              17              18
+19              20              |P|             22              23              24
+25              26              27              28              29              30
+
+Moving player to node 27 which is one of the neighbours of node 21
+Player moved to desired location
+Player: Location Id (27)Co-ordinates: (4,2)Treasure collected(DIAMOND:0 RUBY:0 SAPPHIRE:0 )
+Player Location details: ID(27) Neighbours/possible moves(21 ) (CA)
+1               2               3               4               5               6
+7               8               9               10              11              12
+13              14              15              16              17              18
+19              20              21              22              23              24
+25              26              |P|             28              29              30
+
+Moving player to node 21 which is one of the neighbours of node 27
+Player moved to desired location
+Player: Location Id (21)Co-ordinates: (3,2)Treasure collected(DIAMOND:0 RUBY:0 SAPPHIRE:0 )
+Player Location details: ID(21) Neighbours/possible moves(15 27 ) (TU)
+1               2               3               4               5               6
+7               8               9               10              11              12
+13              14              15              16              17              18
+19              20              |P|             22              23              24
+25              26              27              28              29              30
+
+Moving player to node 15 which is one of the neighbours of node 21
+Player moved to desired location
+Player: Location Id (15)Co-ordinates: (2,2)Treasure collected(DIAMOND:0 RUBY:0 SAPPHIRE:0 )
+Player Location details: ID(15) Neighbours/possible moves(9 21 ) (TU)
+1               2               3               4               5               6
+7               8               9               10              11              12
+13              14              |P|             16              17              18
+19              20              21              22              23              24
+25              26              27              28              29              30
+
+Moving player to node 9 which is one of the neighbours of node 15
+Player moved to desired location
+Player: Location Id (9)Co-ordinates: (1,2)Treasure collected(DIAMOND:0 RUBY:0 SAPPHIRE:0 )
+Player Location details: ID(9) Neighbours/possible moves(3 15 8 10 ) (CA)
+1               2               3               4               5               6
+7               8               |P|             10              11              12
+13              14              15              16              17              18
+19              20              21              22              23              24
+25              26              27              28              29              30
+
+Moving player to node 8 which is one of the neighbours of node 9
+Player moved to desired location
+Player: Location Id (8)Co-ordinates: (1,1)Treasure collected(DIAMOND:0 RUBY:0 SAPPHIRE:0 )
+Player Location details: ID(8) Neighbours/possible moves(2 14 7 9 ) (CA)
+1               2               3               4               5               6
+7               |P|             9               10              11              12
+13              14              15              16              17              18
+19              20              21              22              23              24
+25              26              27              28              29              30
+
+Moving player to node 14 which is one of the neighbours of node 8
+Player moved to desired location
+Player: Location Id (14)Co-ordinates: (2,1)Treasure collected(DIAMOND:0 RUBY:0 SAPPHIRE:0 )
+Player Location details: ID(14) Neighbours/possible moves(8 20 13 ) (CA)
+1               2               3               4               5               6
+7               8               9               10              11              12
+13              |P|             15              16              17              18
+19              20              21              22              23              24
+25              26              27              28              29              30
+
+Moving player to node 20 which is one of the neighbours of node 14
+Player moved to desired location
+Player: Location Id (20)Co-ordinates: (3,1)Treasure collected(DIAMOND:0 RUBY:0 SAPPHIRE:0 )
+Player Location details: ID(20) Neighbours/possible moves(14 26 ) (TU)
+1               2               3               4               5               6
+7               8               9               10              11              12
+13              14              15              16              17              18
+19              |P|             21              22              23              24
+25              26              27              28              29              30
+
+Moving player to node 26 which is one of the neighbours of node 20
+Player moved to desired location
+Player: Location Id (26)Co-ordinates: (4,1)Treasure collected(DIAMOND:0 RUBY:0 SAPPHIRE:0 )
+Player Location details: ID(26) Neighbours/possible moves(20 ) (CA)
+1               2               3               4               5               6
+7               8               9               10              11              12
+13              14              15              16              17              18
+19              20              21              22              23              24
+25              |P|             27              28              29              30
+
+Moving player to node 20 which is one of the neighbours of node 26
+Player moved to desired location
+Player: Location Id (20)Co-ordinates: (3,1)Treasure collected(DIAMOND:0 RUBY:0 SAPPHIRE:0 )
+Player Location details: ID(20) Neighbours/possible moves(14 26 ) (TU)
+1               2               3               4               5               6
+7               8               9               10              11              12
+13              14              15              16              17              18
+19              |P|             21              22              23              24
+25              26              27              28              29              30
+
+Moving player to node 14 which is one of the neighbours of node 20
+Player moved to desired location
+Player: Location Id (14)Co-ordinates: (2,1)Treasure collected(DIAMOND:0 RUBY:0 SAPPHIRE:0 )
+Player Location details: ID(14) Neighbours/possible moves(8 20 13 ) (CA)
+1               2               3               4               5               6
+7               8               9               10              11              12
+13              |P|             15              16              17              18
+19              20              21              22              23              24
+25              26              27              28              29              30
+
+Moving player to node 13 which is one of the neighbours of node 14
+Player moved to desired location
+Player: Location Id (13)Co-ordinates: (2,0)Treasure collected(DIAMOND:0 RUBY:0 SAPPHIRE:0 )
+Player Location details: ID(13) Neighbours/possible moves(7 19 14 ) (CA)
+1               2               3               4               5               6
+7               8               9               10              11              12
+|P|             14              15              16              17              18
+19              20              21              22              23              24
+25              26              27              28              29              30
+
+Moving player to node 19 which is one of the neighbours of node 13
+Player moved to desired location
+Player: Location Id (19)Co-ordinates: (3,0)Treasure collected(DIAMOND:0 RUBY:0 SAPPHIRE:0 )
+Player Location details: ID(19) Neighbours/possible moves(13 25 ) (TU)
+1               2               3               4               5               6
+7               8               9               10              11              12
+13              14              15              16              17              18
+|P|             20              21              22              23              24
+25              26              27              28              29              30
+
+Moving player to node 25 which is one of the neighbours of node 19
+Player moved to desired location
+Player: Location Id (25)Co-ordinates: (4,0)Treasure collected(DIAMOND:0 RUBY:0 SAPPHIRE:0 )
+Player Location details: ID(25) Neighbours/possible moves(19 ) (CA)
+1               2               3               4               5               6
+7               8               9               10              11              12
+13              14              15              16              17              18
+19              20              21              22              23              24
+|P|             26              27              28              29              30
+
+Moving player to node 19 which is one of the neighbours of node 25
+Player moved to desired location
+Player: Location Id (19)Co-ordinates: (3,0)Treasure collected(DIAMOND:0 RUBY:0 SAPPHIRE:0 )
+Player Location details: ID(19) Neighbours/possible moves(13 25 ) (TU)
+1               2               3               4               5               6
+7               8               9               10              11              12
+13              14              15              16              17              18
+|P|             20              21              22              23              24
+25              26              27              28              29              30
+
+Moving player to node 13 which is one of the neighbours of node 19
+Player moved to desired location
+Player: Location Id (13)Co-ordinates: (2,0)Treasure collected(DIAMOND:0 RUBY:0 SAPPHIRE:0 )
+Player Location details: ID(13) Neighbours/possible moves(7 19 14 ) (CA)
+1               2               3               4               5               6
+7               8               9               10              11              12
+|P|             14              15              16              17              18
+19              20              21              22              23              24
+25              26              27              28              29              30
+
+Moving player to node 7 which is one of the neighbours of node 13
+Player moved to desired location
+Player: Location Id (7)Co-ordinates: (1,0)Treasure collected(DIAMOND:0 RUBY:0 SAPPHIRE:0 )
+Player Location details: ID(7) Neighbours/possible moves(1 13 8 12 ) (CA)
+1               2               3               4               5               6
+|P|             8               9               10              11              12
+13              14              15              16              17              18
+19              20              21              22              23              24
+25              26              27              28              29              30
+
+Moving player to node 12 which is one of the neighbours of node 7 - NOTE SHOWING A WRAPPING MOVE
+Player moved to desired location
+Player: Location Id (12)Co-ordinates: (1,5)Treasure collected(DIAMOND:0 RUBY:0 SAPPHIRE:0 )
+Player Location details: ID(12) Neighbours/possible moves(6 18 11 7 ) (CA)
+1               2               3               4               5               6
+7               8               9               10              11              |P|
+13              14              15              16              17              18
+19              20              21              22              23              24
+25              26              27              28              29              30
+
+Moving player to node 11 which is one of the neighbours of node 12
+Player moved to desired location
+Player: Location Id (11)Co-ordinates: (1,4)Treasure collected(DIAMOND:0 RUBY:0 SAPPHIRE:0 )
+Player Location details: ID(11) Neighbours/possible moves(5 17 10 12 ) (CA)
+1               2               3               4               5               6
+7               8               9               10              |P|             12
+13              14              15              16              17              18
+19              20              21              22              23              24
+25              26              27              28              29              30
+
+Moving player to node 5 which is one of the neighbours of node 11
+Player moved to desired location
+Player: Location Id (5)Co-ordinates: (0,4)Treasure collected(DIAMOND:0 RUBY:0 SAPPHIRE:0 )
+Player Location details: ID(5) Neighbours/possible moves(4 11 6 ) (CA) (treasure: D R )
+1               2               3               4               |P|             6
+7               8               9               10              11              12
+13              14              15              16              17              18
+19              20              21              22              23              24
+25              26              27              28              29              30
+Collecting the treasure in the cave
+Treasure added
+Player: Location Id (5)Co-ordinates: (0,4)Treasure collected(DIAMOND:1 RUBY:1 SAPPHIRE:0 )
+
+Moving player to node 4 which is one of the neighbours of node 5
+Player moved to desired location
+Player: Location Id (4)Co-ordinates: (0,3)Treasure collected(DIAMOND:1 RUBY:1 SAPPHIRE:0 )
+Player Location details: ID(4) Neighbours/possible moves(3 10 5 ) (CA) (treasure: D R )
+1               2               3               |P|             5               6
+7               8               9               10              11              12
+13              14              15              16              17              18
+19              20              21              22              23              24
+25              26              27              28              29              30
+Collecting the treasure in the cave
+Treasure added
+Player: Location Id (4)Co-ordinates: (0,3)Treasure collected(DIAMOND:2 RUBY:2 SAPPHIRE:0 )
+
+Moving player to node 3 which is one of the neighbours of node 4
+Player moved to desired location
+Player: Location Id (3)Co-ordinates: (0,2)Treasure collected(DIAMOND:2 RUBY:2 SAPPHIRE:0 )
+Player Location details: ID(3) Neighbours/possible moves(2 9 4 ) (CA) (treasure: D R )
+1               2               |P|             4               5               6
+7               8               9               10              11              12
+13              14              15              16              17              18
+19              20              21              22              23              24
+25              26              27              28              29              30
+Collecting the treasure in the cave
+Treasure added
+Player: Location Id (3)Co-ordinates: (0,2)Treasure collected(DIAMOND:3 RUBY:3 SAPPHIRE:0 )
+
+Moving player to node 2 which is one of the neighbours of node 3
+Player moved to desired location
+Player: Location Id (2)Co-ordinates: (0,1)Treasure collected(DIAMOND:3 RUBY:3 SAPPHIRE:0 )
+Player Location details: ID(2) Neighbours/possible moves(1 8 3 ) (CA) (treasure: D R )
+1               |P|             3               4               5               6
+7               8               9               10              11              12
+13              14              15              16              17              18
+19              20              21              22              23              24
+25              26              27              28              29              30
+Collecting the treasure in the cave
+Treasure added
+Player: Location Id (2)Co-ordinates: (0,1)Treasure collected(DIAMOND:4 RUBY:4 SAPPHIRE:0 )
+
+Moving player to node 1 which is one of the neighbours of node 2
+Player moved to desired location
+Player: Location Id (1)Co-ordinates: (0,0)Treasure collected(DIAMOND:4 RUBY:4 SAPPHIRE:0 )
+Player Location details: ID(1) Neighbours/possible moves(7 2 6 ) (CA) (treasure: D R )
+|P|             2               3               4               5               6
+7               8               9               10              11              12
+13              14              15              16              17              18
+19              20              21              22              23              24
+25              26              27              28              29              30
+Collecting the treasure in the cave
+Treasure added
+Player: Location Id (1)Co-ordinates: (0,0)Treasure collected(DIAMOND:5 RUBY:5 SAPPHIRE:0 )
+
+Moving player to node 6 which is one of the neighbours of node 1
+Player has reached the destination
+Player: Location Id (6)Co-ordinates: (0,5)Treasure collected(DIAMOND:5 RUBY:5 SAPPHIRE:0 )
+Player Location details: ID(6) Neighbours/possible moves(5 12 1 ) (CA) (treasure: D R )
+1               2               3               4               5               |P|
+7               8               9               10              11              12
+13              14              15              16              17              18
+19              20              21              22              23              24
+25              26              27              28              29              30
+Collecting the treasure in the cave
+Collecting the treasure in the cave
+Treasure added
+Player: Location Id (6)Co-ordinates: (0,5)Treasure collected(DIAMOND:6 RUBY:6 SAPPHIRE:0 )
+
+Trying to move the player when player has already reached the destination
+Player has already reached the destination
+poojanangude@Poojas-MBP src %

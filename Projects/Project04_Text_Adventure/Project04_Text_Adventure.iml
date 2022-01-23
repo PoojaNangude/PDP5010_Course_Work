@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/test" isTestSource="true" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="CS5010_PDP_Project4_AdventureGame" level="project" />
+    <orderEntry type="library" name="CS5010_PDP_Project5_Graphical_Adventure_Game" level="project" />
+    <orderEntry type="library" name="CS5010_Project3_Dungeon1" level="project" />
+    <orderEntry type="library" name="CS5010_Project3_Dungeon" level="project" />
+    <orderEntry type="library" name="CS5010_PDP_Project4_AdventureGame1" level="project" />
+    <orderEntry type="module" module-name="Project05_Graphical_Dungeon" />
+    <orderEntry type="module" module-name="Project03_Dungeon_Model" />
+  </component>
+</module>

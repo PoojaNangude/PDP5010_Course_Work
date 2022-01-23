@@ -1,0 +1,427 @@
+/Users/poojanangude/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home/bin/java -Dfile.encoding=UTF-8 -jar /Users/poojanangude/Desktop/courses/CS5010_PDP_Project1_Primates/out/artifacts/CS5010_PDP_Project1_Primates_jar2/CS5010_PDP_Project1_Primates.jar
+-----ISOLATIONS AND ENCLOSURES AFTER CREATING THEM-----
+
+ISOLATION ROOMS INFORMATION
+-----------------------------------------------------------------------------
+ISOLATION ROOM ID                                      MONKEY HOUSED
+-----------------------------------------------------------------------------
+         1                                    EMPTY
+         2                                    EMPTY
+         3                                    EMPTY
+         4                                    EMPTY
+         5                                    EMPTY
+
+ENCLOSURE ROOMS INFORMATION
+-----------------------------------------------------------------------------------------------------------
+ENCLOSURE ID    SPECIES       TOTAL CAPACITY    CONSUMED CAPACITY       MONKEYS HOUSED
+-----------------------------------------------------------------------------------------------------------
+         1      drill                   20                    0
+         2    guereza                   40                    0
+         3     howler                   60                    0
+
+-----Add a monkey to Isolation-----
+
+ISOLATION ROOMS INFORMATION
+-----------------------------------------------------------------------------
+ISOLATION ROOM ID                                      MONKEY HOUSED
+-----------------------------------------------------------------------------
+         1                    uniqueId: 1 ,name: Connie ,species: drill
+         2                                    EMPTY
+         3                                    EMPTY
+         4                                    EMPTY
+         5                                    EMPTY
+
+-----Add another monkey to Isolation-----
+
+ISOLATION ROOMS INFORMATION
+-----------------------------------------------------------------------------
+ISOLATION ROOM ID                                      MONKEY HOUSED
+-----------------------------------------------------------------------------
+         1                    uniqueId: 1 ,name: Connie ,species: drill
+         2                   uniqueId: 2 ,name: Booger ,species: howler
+         3                                    EMPTY
+         4                                    EMPTY
+         5                                    EMPTY
+
+-----Add 3 more monkeys to isolation-----
+
+ISOLATION ROOMS INFORMATION
+-----------------------------------------------------------------------------
+ISOLATION ROOM ID                                      MONKEY HOUSED
+-----------------------------------------------------------------------------
+         1                    uniqueId: 1 ,name: Connie ,species: drill
+         2                   uniqueId: 2 ,name: Booger ,species: howler
+         3                     uniqueId: 3 ,name: Quinn ,species: drill
+         4                     uniqueId: 4 ,name: Cuddle ,species: saki
+         5                    uniqueId: 5 ,name: Bonnie ,species: drill
+
+-----Trying to add another monkey to isolation when all the isolation rooms are occupied-----
+Could not add monkey to isolation. All the isolations are occupied
+
+-----Send a monkey that is presently in isolation to an available enclosure-----
+** When we move a monkey from isolation to enclosure, it must be removed from the isolation room it occupies
+After moving monkey1 from isolation to enclosure, its entry will be removed from isolation list.
+
+Removed from isolation
+
+ISOLATION ROOMS INFORMATION
+-----------------------------------------------------------------------------
+ISOLATION ROOM ID                                      MONKEY HOUSED
+-----------------------------------------------------------------------------
+         1                                    EMPTY
+         2                   uniqueId: 2 ,name: Booger ,species: howler
+         3                     uniqueId: 3 ,name: Quinn ,species: drill
+         4                     uniqueId: 4 ,name: Cuddle ,species: saki
+         5                    uniqueId: 5 ,name: Bonnie ,species: drill
+
+Added to Enclosure
+**Also as the monkey comes under medium category it will occupy 5 meter square which is accordingly updated**
+
+ENCLOSURE ROOMS INFORMATION
+-----------------------------------------------------------------------------------------------------------
+ENCLOSURE ID    SPECIES       TOTAL CAPACITY    CONSUMED CAPACITY       MONKEYS HOUSED
+-----------------------------------------------------------------------------------------------------------
+         1      drill                   20                    5   Connie
+         2    guereza                   40                    0
+         3     howler                   60                    0
+
+-----Trying to move a monkey from isolation to enclosure when it is not completed it medical treatment-----
+The monkey cannot be added to an enclosure as it is still undergoing medical treatment.
+Monkey8 added to isolation but was not able to be moved to enclosure
+
+ISOLATION ROOMS INFORMATION
+-----------------------------------------------------------------------------
+ISOLATION ROOM ID                                      MONKEY HOUSED
+-----------------------------------------------------------------------------
+         1                   uniqueId: 8 ,name: Willy ,species: tamarin
+         2                   uniqueId: 2 ,name: Booger ,species: howler
+         3                     uniqueId: 3 ,name: Quinn ,species: drill
+         4                     uniqueId: 4 ,name: Cuddle ,species: saki
+         5                    uniqueId: 5 ,name: Bonnie ,species: drill
+
+ENCLOSURE ROOMS INFORMATION
+-----------------------------------------------------------------------------------------------------------
+ENCLOSURE ID    SPECIES       TOTAL CAPACITY    CONSUMED CAPACITY       MONKEYS HOUSED
+-----------------------------------------------------------------------------------------------------------
+         1      drill                   20                    5   Connie
+         2    guereza                   40                    0
+         3     howler                   60                    0
+
+-----Trying to add a monkey to enclosure which has not be assigned to a isolation yet-----
+Monkey cannot be added to enclosure as it is not present in any of the isolation rooms.
+
+-----Updating medical status of monkey to READY and then add it to an available enclosure-----
+**NOTE: When I am adding monkey8 from isolation to enclosure, none of the enclosures have been assigned to 'tamarin' species, but as there are enclosures which are completely empty it is repurposed to house tamarin species**
+
+ISOLATION ROOMS INFORMATION
+-----------------------------------------------------------------------------
+ISOLATION ROOM ID                                      MONKEY HOUSED
+-----------------------------------------------------------------------------
+         1                                    EMPTY
+         2                   uniqueId: 2 ,name: Booger ,species: howler
+         3                     uniqueId: 3 ,name: Quinn ,species: drill
+         4                     uniqueId: 4 ,name: Cuddle ,species: saki
+         5                    uniqueId: 5 ,name: Bonnie ,species: drill
+
+ENCLOSURE ROOMS INFORMATION
+-----------------------------------------------------------------------------------------------------------
+ENCLOSURE ID    SPECIES       TOTAL CAPACITY    CONSUMED CAPACITY       MONKEYS HOUSED
+-----------------------------------------------------------------------------------------------------------
+         1      drill                   20                    5   Connie
+         2    tamarin                   40                    5    Willy
+         3     howler                   60                    0
+-----Moving some more monkeys from isolation to enclosure-----
+**NOTE: According to the size of the monket i.e. SMALL, MEDIUM OR LARGE the consumed area attribute will be accordingly updated**
+
+ISOLATION ROOMS INFORMATION
+-----------------------------------------------------------------------------
+ISOLATION ROOM ID                                      MONKEY HOUSED
+-----------------------------------------------------------------------------
+         1                                    EMPTY
+         2                                    EMPTY
+         3                                    EMPTY
+         4                     uniqueId: 4 ,name: Cuddle ,species: saki
+         5                    uniqueId: 5 ,name: Bonnie ,species: drill
+
+ENCLOSURE ROOMS INFORMATION
+-----------------------------------------------------------------------------------------------------------
+ENCLOSURE ID    SPECIES       TOTAL CAPACITY    CONSUMED CAPACITY       MONKEYS HOUSED
+-----------------------------------------------------------------------------------------------------------
+         1      drill                   20                   15   Connie     Quinn
+         2    tamarin                   40                    5    Willy
+         3     howler                   60                    1   Booger
+
+-----Moving a monkey from isolation to enclosure when the monkey we are moving is of species which has not been assigned an enclosure and all enclosures are housing some other species currently
+Monkey could not be added to enclosure as none of the enclosures have any vacancy. Send it to another sanctuary.
+
+-----Adding some more monkeys to isolation-----
+
+ISOLATION ROOMS INFORMATION
+-----------------------------------------------------------------------------
+ISOLATION ROOM ID                                      MONKEY HOUSED
+-----------------------------------------------------------------------------
+         1                   uniqueId: 6 ,name: Pickles ,species: drill
+         2                 uniqueId: 7 ,name: Giggles ,species: tamarin
+         3                                    EMPTY
+         4                     uniqueId: 4 ,name: Cuddle ,species: saki
+         5                    uniqueId: 5 ,name: Bonnie ,species: drill
+
+ENCLOSURE ROOMS INFORMATION
+-----------------------------------------------------------------------------------------------------------
+ENCLOSURE ID    SPECIES       TOTAL CAPACITY    CONSUMED CAPACITY       MONKEYS HOUSED
+-----------------------------------------------------------------------------------------------------------
+         1      drill                   20                   15   Connie     Quinn
+         2    tamarin                   40                    5    Willy
+         3     howler                   60                    1   Booger
+
+-----Trying to move monkey5 which is of 'drill' species to enclosure. Though there is an enclosure assigned to it wont be added as its is a LARGE monkey and will require 10 meter square and only 5 meter square is left
+Monkey could not be added to enclosure as none of the enclosures have any vacancy. Send it to another sanctuary.
+
+SPECIES HOUSED IN THE SANCTUARY (ARRANGED IN ALPHABETICAL ORDER BY SPECIES NAME):
+-----------------------------------------------------------------------------
+SPECIES NAME                  ISOLATION IDs        ENCLOSURE IDs
+-----------------------------------------------------------------------------
+     drill                         [1, 5]                  [1]
+      saki                            [4]                   []
+   tamarin                            [2]                  [2]
+
+
+SIGN OF AN ENCLOSURE BASED ON THE ENCLOSURE ID PROVIDED (ID = 1)
+-----------------------------------------------------------------------------
+MONKEY NAME                  SEX                 FAVOUROTE FOOD
+-----------------------------------------------------------------------------
+    Connie                    f                         FRUITS
+     Quinn                    m                           NUTS
+
+SHOPPING LIST FOR THE SANCTUARY:
+-----------------------------------------------------------------------------
+ ITEM NAME            QUANTITY (in grams)
+-----------------------------------------------------------------------------
+      EGGS                            100
+    FRUITS                            500
+   INSECTS                              0
+    LEAVES                           1000
+      NUTS                            500
+     SEEDS                              0
+  TREE_SAP                            600
+
+
+LIST OF ALL MONKEYS IN ALPHABETICAL ORDER WITH THEIR LOCATIONS:
+-----------------------------------------------------------------------------
+MONKEY NAME                       LOCATION
+-----------------------------------------------------------------------------
+    Bonnie                ISOLATION ID 5
+    Booger                ENCLOSURE ID 3
+    Connie                ENCLOSURE ID 1
+    Cuddle                ISOLATION ID 4
+   Giggles                ISOLATION ID 2
+   Pickles                ISOLATION ID 1
+     Quinn                ENCLOSURE ID 1
+     Willy                ENCLOSURE ID 2
+
+LOOKUP SPECIES BY SPECIES NAME: (species: tamarin)
+-----------------------------------------------------------------------------
+MONKEY NAME            ISOLATIONS ROOM IDs             ENCLOSURE ROOM IDs
+-----------------------------------------------------------------------------
+   tamarin                            [2]                            [2]
+
+LOOKUP SPECIES BY SPECIES NAME: (species: ape)
+-----------------------------------------------------------------------------
+MONKEY NAME            ISOLATIONS ROOM IDs             ENCLOSURE ROOM IDs
+-----------------------------------------------------------------------------
+No such species is currently housed in the sanctuary.
+
+-----RECORDS BEFORE MOVING A MONKEY FROM ENCLOSURE TO ISOLATION-----
+
+ISOLATION ROOMS INFORMATION
+-----------------------------------------------------------------------------
+ISOLATION ROOM ID                                      MONKEY HOUSED
+-----------------------------------------------------------------------------
+         1                   uniqueId: 6 ,name: Pickles ,species: drill
+         2                 uniqueId: 7 ,name: Giggles ,species: tamarin
+         3                                    EMPTY
+         4                     uniqueId: 4 ,name: Cuddle ,species: saki
+         5                    uniqueId: 5 ,name: Bonnie ,species: drill
+
+ENCLOSURE ROOMS INFORMATION
+-----------------------------------------------------------------------------------------------------------
+ENCLOSURE ID    SPECIES       TOTAL CAPACITY    CONSUMED CAPACITY       MONKEYS HOUSED
+-----------------------------------------------------------------------------------------------------------
+         1      drill                   20                   15   Connie     Quinn
+         2    tamarin                   40                    5    Willy
+         3     howler                   60                    1   Booger
+
+-----Move monkey Quinn from enclosure to isolation for treatment purpose-----
+
+-----RECORDS AFTER moving monkey Quinn from enclosure to isolation
+
+ISOLATION ROOMS INFORMATION
+-----------------------------------------------------------------------------
+ISOLATION ROOM ID                                      MONKEY HOUSED
+-----------------------------------------------------------------------------
+         1                   uniqueId: 6 ,name: Pickles ,species: drill
+         2                 uniqueId: 7 ,name: Giggles ,species: tamarin
+         3                     uniqueId: 3 ,name: Quinn ,species: drill
+         4                     uniqueId: 4 ,name: Cuddle ,species: saki
+         5                    uniqueId: 5 ,name: Bonnie ,species: drill
+
+ENCLOSURE ROOMS INFORMATION
+-----------------------------------------------------------------------------------------------------------
+ENCLOSURE ID    SPECIES       TOTAL CAPACITY    CONSUMED CAPACITY       MONKEYS HOUSED
+-----------------------------------------------------------------------------------------------------------
+         1      drill                   20                    5   Connie
+         2    tamarin                   40                    5    Willy
+         3     howler                   60                    1   Booger
+
+------TRYING TO MOVE A MONKEY FROM ENCLOSURE TO ISOLATION WHEN NONE OF THE ISOLATION ROOMS HAVE A VACANCY-----
+Could not add monkey to isolation. All the isolations are occupied
+
+-----The sanctuary has now received considerable funding and has added 3 isolations and 2 enclosures-----
+
+ISOLATION ROOMS INFORMATION
+-----------------------------------------------------------------------------
+ISOLATION ROOM ID                                      MONKEY HOUSED
+-----------------------------------------------------------------------------
+         1                   uniqueId: 6 ,name: Pickles ,species: drill
+         2                 uniqueId: 7 ,name: Giggles ,species: tamarin
+         3                     uniqueId: 3 ,name: Quinn ,species: drill
+         4                     uniqueId: 4 ,name: Cuddle ,species: saki
+         5                    uniqueId: 5 ,name: Bonnie ,species: drill
+         6                                    EMPTY
+         7                                    EMPTY
+         8                                    EMPTY
+
+-----For the two new enclosures, assigning it an area and the species it can house
+
+ENCLOSURE ROOMS INFORMATION
+-----------------------------------------------------------------------------------------------------------
+ENCLOSURE ID    SPECIES       TOTAL CAPACITY    CONSUMED CAPACITY       MONKEYS HOUSED
+-----------------------------------------------------------------------------------------------------------
+         1      drill                   20                    5   Connie
+         2    tamarin                   40                    5    Willy
+         3     howler                   60                    1   Booger
+         4    tamarin                   90                    0
+         5      drill                   75                    0
+
+-----Adding a new monkey to isolation after the sanctuary has been resized-----
+
+ISOLATION ROOMS INFORMATION
+-----------------------------------------------------------------------------
+ISOLATION ROOM ID                                      MONKEY HOUSED
+-----------------------------------------------------------------------------
+         1                   uniqueId: 6 ,name: Pickles ,species: drill
+         2                 uniqueId: 7 ,name: Giggles ,species: tamarin
+         3                     uniqueId: 3 ,name: Quinn ,species: drill
+         4                     uniqueId: 4 ,name: Cuddle ,species: saki
+         5                    uniqueId: 5 ,name: Bonnie ,species: drill
+         6                      uniqueId: 9 ,name: Tury ,species: drill
+         7                                    EMPTY
+         8                                    EMPTY
+
+-----Moving some of the monkeys from isolation to enclosures-----
+-----Adding 3 monkeys of the same species from isolation to enclosures.When an enclosure housing a species will get full, a search will be made for theavailable enclosure that can house the species.
+The monkey cannot be added to an enclosure as it is still undergoing medical treatment.
+
+ENCLOSURE ROOMS INFORMATION
+-----------------------------------------------------------------------------------------------------------
+ENCLOSURE ID    SPECIES       TOTAL CAPACITY    CONSUMED CAPACITY       MONKEYS HOUSED
+-----------------------------------------------------------------------------------------------------------
+         1      drill                   20                   15   Connie   Pickles
+         2    tamarin                   40                    5    Willy
+         3     howler                   60                    1   Booger
+         4    tamarin                   90                    0
+         5      drill                   75                   10     Tury
+
+-----Now adding moving monkey4 which belongs to species 'saki' from isolation to enclosure-----
+NOTE: None of the enclosures have been assigned to house a monkey belonging to the 'saki' species. But as the enclosure which can house 'tamarin' species is empty it is reconfigured to house 'saki' species.
+
+ENCLOSURE ROOMS INFORMATION
+-----------------------------------------------------------------------------------------------------------
+ENCLOSURE ID    SPECIES       TOTAL CAPACITY    CONSUMED CAPACITY       MONKEYS HOUSED
+-----------------------------------------------------------------------------------------------------------
+         1      drill                   20                   15   Connie   Pickles
+         2    tamarin                   40                    5    Willy
+         3     howler                   60                    1   Booger
+         4       saki                   90                   10   Cuddle
+         5      drill                   75                   10     Tury
+
+-----THE ISOLATIONN AND ENCLOSURE LIST UPTIL NOW-----
+
+ISOLATION ROOMS INFORMATION
+-----------------------------------------------------------------------------
+ISOLATION ROOM ID                                      MONKEY HOUSED
+-----------------------------------------------------------------------------
+         1                                    EMPTY
+         2                 uniqueId: 7 ,name: Giggles ,species: tamarin
+         3                     uniqueId: 3 ,name: Quinn ,species: drill
+         4                                    EMPTY
+         5                    uniqueId: 5 ,name: Bonnie ,species: drill
+         6                                    EMPTY
+         7                                    EMPTY
+         8                                    EMPTY
+
+ENCLOSURE ROOMS INFORMATION
+-----------------------------------------------------------------------------------------------------------
+ENCLOSURE ID    SPECIES       TOTAL CAPACITY    CONSUMED CAPACITY       MONKEYS HOUSED
+-----------------------------------------------------------------------------------------------------------
+         1      drill                   20                   15   Connie   Pickles
+         2    tamarin                   40                    5    Willy
+         3     howler                   60                    1   Booger
+         4       saki                   90                   10   Cuddle
+         5      drill                   75                   10     Tury
+
+SPECIES HOUSED IN THE SANCTUARY (ARRANGED IN ALPHABETICAL ORDER BY SPECIES NAME):
+-----------------------------------------------------------------------------
+SPECIES NAME                  ISOLATION IDs        ENCLOSURE IDs
+-----------------------------------------------------------------------------
+     drill                         [3, 5]               [1, 5]
+   tamarin                            [2]                  [2]
+
+
+LOOKUP SPECIES BY SPECIES NAME: (species: Tamarin)
+-----------------------------------------------------------------------------
+MONKEY NAME            ISOLATIONS ROOM IDs             ENCLOSURE ROOM IDs
+-----------------------------------------------------------------------------
+   tamarin                            [2]                            [2]
+
+LOOKUP SPECIES BY SPECIES NAME: (species: ape)
+-----------------------------------------------------------------------------
+MONKEY NAME            ISOLATIONS ROOM IDs             ENCLOSURE ROOM IDs
+-----------------------------------------------------------------------------
+No such species is currently housed in the sanctuary.
+
+SIGN OF AN ENCLOSURE BASED ON THE ENCLOSURE ID PROVIDED (ID = 1)
+-----------------------------------------------------------------------------
+MONKEY NAME                  SEX                 FAVOUROTE FOOD
+-----------------------------------------------------------------------------
+    Connie                    f                         FRUITS
+   Pickles                    m                         LEAVES
+
+LIST OF ALL MONKEYS IN ALPHABETICAL ORDER WITH THEIR LOCATIONS:
+-----------------------------------------------------------------------------
+MONKEY NAME                       LOCATION
+-----------------------------------------------------------------------------
+    Bonnie                ISOLATION ID 5
+    Booger                ENCLOSURE ID 3
+    Connie                ENCLOSURE ID 1
+    Cuddle                ENCLOSURE ID 4
+   Giggles                ISOLATION ID 2
+   Pickles                ENCLOSURE ID 1
+     Quinn                ISOLATION ID 3
+      Tury                ENCLOSURE ID 5
+     Willy                ENCLOSURE ID 2
+
+SHOPPING LIST FOR THE SANCTUARY:
+-----------------------------------------------------------------------------
+ ITEM NAME            QUANTITY (in grams)
+-----------------------------------------------------------------------------
+      EGGS                            100
+    FRUITS                            500
+   INSECTS                              0
+    LEAVES                           1000
+      NUTS                            500
+     SEEDS                            500
+  TREE_SAP                            600
+
+
+Process finished with exit code 0

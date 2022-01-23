@@ -1,0 +1,204 @@
+NOTE: IN CASE OF A RANDOM DUNGEON CREATION, I HAVE DUMPED SOME DETAILS OF THE DUNGEON GRID TO MAKE SURE THAT ALL THE THREE OPERATIONS: MOVE, PICKUP AND SHOOT ARE WORKING PROPERLY
+This example run covers the following cases:(This is a random dungeon):
+1. Player navigating through the dungeon
+2. Player killing an Otyugh
+3. Player getting defeated by an injured Otyugh
+
+poojanangude@Poojas-MBP CS5010_PDP_Project4_AdventureGame % cd src
+poojanangude@Poojas-MBP src % java GameDriver.java W 6 6 13 30 40
+ID(1) N(6WEST 31NORTH 2EAST )(6 31 2 ) (CA)   (Arrows: 0) ID(2) N(3EAST 1WEST )(3 1 ) (TU)   (Arrows: 1) ID(3) N(9SOUTH 2WEST 33NORTH 4EAST )(9 2 33 4 ) (CA)   (Arrows: 2) ID(4) N(34NORTH 10SOUTH 3WEST 5EAST )(34 10 3 5 ) (CA) (treasure: D R )  (Arrows: 0) ID(5) N(11SOUTH 4WEST 35NORTH )(11 4 35 ) (CA)   (Arrows: 3) ID(6) N(1EAST 12SOUTH 36NORTH )(1 12 36 ) (CA) (treasure: S R ) (M 2 ) (Arrows: 0)
+ID(7) N(13SOUTH )(13 ) (CA)   (Arrows: 0) ID(8) N(9EAST )(9 ) (CA) (treasure: S R )  (Arrows: 2) ID(9) N(8WEST 3NORTH )(8 3 ) (TU)   (Arrows: 0) ID(10) N(4NORTH 11EAST )(4 11 ) (TU)   (Arrows: 2) ID(11) N(5NORTH 10WEST )(5 10 ) (TU)   (Arrows: 0) ID(12) N(18SOUTH 6NORTH )(18 6 ) (TU)   (Arrows: 0)
+ID(13) N(7NORTH 14EAST 18WEST 19SOUTH )(7 14 18 19 ) (CA)   (Arrows: 0) ID(14) N(20SOUTH 13WEST 15EAST )(20 13 15 ) (CA)   (Arrows: 1) ID(15) N(16EAST 14WEST )(16 14 ) (TU)   (Arrows: 0) ID(16) N(15WEST 17EAST )(15 17 ) (TU)   (Arrows: 0) ID(17) N(16WEST )(16 ) (CA) (treasure: S D )  (Arrows: 0) ID(18) N(12NORTH 13EAST 24SOUTH )(12 13 24 ) (CA) (treasure: S D )  (Arrows: 0)
+ID(19) N(24WEST 13NORTH )(24 13 ) (TU)   (Arrows: 1) ID(20) N(14NORTH 21EAST 26SOUTH )(14 21 26 ) (CA) (treasure: S D )  (Arrows: 0) ID(21) N(20WEST 22EAST )(20 22 ) (TU)   (Arrows: 0) ID(22) N(28SOUTH 23EAST 21WEST )(28 23 21 ) (CA)  (M 2 ) (Arrows: 0) ID(23) N(29SOUTH 22WEST )(29 22 ) (TU)   (Arrows: 0) ID(24) N(19EAST 18NORTH )(19 18 ) (TU)   (Arrows: 0)
+ID(25) N(31SOUTH 26EAST 30WEST )(31 26 30 ) (CA)   (Arrows: 0) ID(26) N(32SOUTH 25WEST 20NORTH )(32 25 20 ) (CA)   (Arrows: 1) ID(27) N(28EAST 33SOUTH )(28 33 ) (TU)   (Arrows: 0) ID(28) N(22NORTH 29EAST 34SOUTH 27WEST )(22 29 34 27 ) (CA) (treasure: R D ) (M 2 ) (Arrows: 0) ID(29) N(28WEST 35SOUTH 23NORTH )(28 35 23 ) (CA)   (Arrows: 0) ID(30) N(36SOUTH 25EAST )(36 25 ) (TU)   (Arrows: 0)
+ID(31) N(25NORTH 36WEST 1SOUTH 32EAST )(25 36 1 32 ) (CA)  (M 2 ) (Arrows: 0) ID(32) N(26NORTH 31WEST 33EAST )(26 31 33 ) (CA)  (M 2 ) (Arrows: 0) ID(33) N(34EAST 32WEST 3SOUTH 27NORTH )(34 32 3 27 ) (CA)   (Arrows: 0) ID(34) N(33WEST 4SOUTH 28NORTH 35EAST )(33 4 28 35 ) (CA)   (Arrows: 0) ID(35) N(29NORTH 34WEST 5SOUTH )(29 34 5 ) (CA)   (Arrows: 0) ID(36) N(30NORTH 31EAST 6SOUTH )(30 31 6 ) (CA)   (Arrows: 0)
+
+Start point: 33
+End point: 31
+
+WELCOME TO THE GAME!!
+-----------------------------------------------------------------------------------------
+You are in a CAVE
+You are equipped with 3 arrows
+Treasure collected by player till now: DIAMOND:0 RUBY:0 SAPPHIRE:0
+
+The player senses a terribly pungent odour
+Doors lead to EAST, WEST, SOUTH, NORTH,
+Move player, Pickup treasure/arrow or Shoot arrow (m-p-s)?
+m
+Doors lead to EAST(E), WEST(W), SOUTH(S), NORTH(N),
+Where do you want to go?
+N
+Player moved to desired location
+
+-----------------------------------------------------------------------------------------
+You are in a TUNNEL
+You are equipped with 3 arrows
+Treasure collected by player till now: DIAMOND:0 RUBY:0 SAPPHIRE:0
+
+The player senses a terribly pungent odour
+Doors lead to EAST, SOUTH,
+Move player, Pickup treasure/arrow or Shoot arrow (m-p-s)?
+s
+How many caves to be travelled ?
+1
+Enter the direction in which you want to shoot the arrow(N-S-E-W):
+E
+You hear a great howl in the distance. You injured an Otyugh!!
+-----------------------------------------------------------------------------------------
+You are in a TUNNEL
+You are equipped with 2 arrows
+Treasure collected by player till now: DIAMOND:0 RUBY:0 SAPPHIRE:0
+
+The player senses a terribly pungent odour
+Doors lead to EAST, SOUTH,
+Move player, Pickup treasure/arrow or Shoot arrow (m-p-s)?
+s
+How many caves to be travelled ?
+1
+Enter the direction in which you want to shoot the arrow(N-S-E-W):
+E
+Wow!! You just killed a monster.
+-----------------------------------------------------------------------------------------
+You are in a TUNNEL
+You are equipped with 1 arrows
+Treasure collected by player till now: DIAMOND:0 RUBY:0 SAPPHIRE:0
+
+The player senses a terribly pungent odour
+Doors lead to EAST, SOUTH,
+Move player, Pickup treasure/arrow or Shoot arrow (m-p-s)?
+m
+Doors lead to EAST(E), SOUTH(S),
+Where do you want to go?
+E
+Player moved to desired location
+
+-----------------------------------------------------------------------------------------
+You are in a CAVE
+You entered a cave with a dead monster
+You are equipped with 1 arrows
+Treasure collected by player till now: DIAMOND:0 RUBY:0 SAPPHIRE:0
+
+You find 1 DIAMOND 1 RUBY here
+The player senses a terribly pungent odour
+Doors lead to NORTH, EAST, SOUTH, WEST,
+Move player, Pickup treasure/arrow or Shoot arrow (m-p-s)?
+p
+What do you want to collect (arrows(A)/ treasure(T))
+T
+Treasure collected
+-----------------------------------------------------------------------------------------
+You are in a CAVE
+You entered a cave with a dead monster
+You are equipped with 1 arrows
+Treasure collected by player till now: DIAMOND:1 RUBY:1 SAPPHIRE:0
+
+The player senses a terribly pungent odour
+Doors lead to NORTH, EAST, SOUTH, WEST,
+Move player, Pickup treasure/arrow or Shoot arrow (m-p-s)?
+m
+Doors lead to NORTH(N), EAST(E), SOUTH(S), WEST(W),
+Where do you want to go?
+E
+Player moved to desired location
+
+-----------------------------------------------------------------------------------------
+You are in a CAVE
+You are equipped with 1 arrows
+Treasure collected by player till now: DIAMOND:1 RUBY:1 SAPPHIRE:0
+
+The player senses a terribly pungent odour
+Doors lead to WEST, SOUTH, NORTH,
+Move player, Pickup treasure/arrow or Shoot arrow (m-p-s)?
+m
+Doors lead to WEST(W), SOUTH(S), NORTH(N),
+Where do you want to go?
+E
+Invalid move specified
+
+-----------------------------------------------------------------------------------------
+You are in a CAVE
+You are equipped with 1 arrows
+Treasure collected by player till now: DIAMOND:1 RUBY:1 SAPPHIRE:0
+
+The player senses a terribly pungent odour
+Doors lead to WEST, SOUTH, NORTH,
+Move player, Pickup treasure/arrow or Shoot arrow (m-p-s)?
+m
+Doors lead to WEST(W), SOUTH(S), NORTH(N),
+Where do you want to go?
+E
+Invalid move specified
+
+-----------------------------------------------------------------------------------------
+You are in a CAVE
+You are equipped with 1 arrows
+Treasure collected by player till now: DIAMOND:1 RUBY:1 SAPPHIRE:0
+
+The player senses a terribly pungent odour
+Doors lead to WEST, SOUTH, NORTH,
+Move player, Pickup treasure/arrow or Shoot arrow (m-p-s)?
+m
+Doors lead to WEST(W), SOUTH(S), NORTH(N),
+Where do you want to go?
+E
+Invalid move specified
+
+-----------------------------------------------------------------------------------------
+You are in a CAVE
+You are equipped with 1 arrows
+Treasure collected by player till now: DIAMOND:1 RUBY:1 SAPPHIRE:0
+
+The player senses a terribly pungent odour
+Doors lead to WEST, SOUTH, NORTH,
+Move player, Pickup treasure/arrow or Shoot arrow (m-p-s)?
+p
+What do you want to collect (arrows(A)/ treasure(T))
+A
+No arrows present to collect
+-----------------------------------------------------------------------------------------
+You are in a CAVE
+You are equipped with 1 arrows
+Treasure collected by player till now: DIAMOND:1 RUBY:1 SAPPHIRE:0
+
+The player senses a terribly pungent odour
+Doors lead to WEST, SOUTH, NORTH,
+Move player, Pickup treasure/arrow or Shoot arrow (m-p-s)?
+m
+Doors lead to WEST(W), SOUTH(S), NORTH(N),
+Where do you want to go?
+N
+Player moved to desired location
+
+-----------------------------------------------------------------------------------------
+You are in a TUNNEL
+You are equipped with 1 arrows
+Treasure collected by player till now: DIAMOND:1 RUBY:1 SAPPHIRE:0
+
+The player senses a terribly pungent odour
+Doors lead to SOUTH, WEST,
+Move player, Pickup treasure/arrow or Shoot arrow (m-p-s)?
+s
+How many caves to be travelled ?
+1
+Enter the direction in which you want to shoot the arrow(N-S-E-W):
+W
+You hear a great howl in the distance. You injured an Otyugh!!
+-----------------------------------------------------------------------------------------
+You are in a TUNNEL
+You are equipped with 0 arrows
+Treasure collected by player till now: DIAMOND:1 RUBY:1 SAPPHIRE:0
+
+The player senses a terribly pungent odour
+Doors lead to SOUTH, WEST,
+Move player, Pickup treasure/arrow or Shoot arrow (m-p-s)?
+m
+Doors lead to SOUTH(S), WEST(W),
+Where do you want to go?
+W
+Player moved to desired location
+You see an injured monster here
+You try to run away
+You could not escape the monster.
+-----------------------------------------------------------------------------------------
+poojanangude@Poojas-MBP src %
